@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>ToitskyMA, horinf</Authors>
+    <Company>horinf</Company>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Copyright>ToitskyMA, horinf</Copyright>
+    <PackageTags>Localization, JSON</PackageTags>
+    <RepositoryUrl>https://github.com/horinf/ToolsToLive.JsonSourceLocalizer</RepositoryUrl>
+    <Description>Localizer that uses json files (just like ngx-translate in angular)</Description>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

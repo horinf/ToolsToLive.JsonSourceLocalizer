@@ -49,7 +49,7 @@ namespace ToolsToLive.JsonSourceLocalizer
 
             if (!file.Exists)
             {
-                throw new Exception($"File in the root foler {root} (including subfolders according to key namespaces) with localization resourses not found");
+                throw new Exception($"File in the root foler {_settings.ResourceDirectoryPath} (including subfolders according to key namespaces) with localization resourses not found");
             }
 
             string json;
